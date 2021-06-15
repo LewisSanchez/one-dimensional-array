@@ -3,6 +3,7 @@
 
 #include "Exception.h"
 
+
 template <typename T>
 class Array
 {
@@ -39,6 +40,9 @@ template <typename T>
 Array<T>::Array(int length, int start_index = 0)
 	: m_length(length), m_start_index(start_index)
 {
+	if (m_length < 0)
+		throw Exception("Error: Array length cannot be negative.");
+
 	m_array = new T[length];
 }
 

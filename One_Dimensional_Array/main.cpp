@@ -3,7 +3,9 @@
 #include <cassert>
 #include <iostream>
 #include "Array.h"
+
 #include "Exception.h"
+
 #include <string>
 using std::string;
 

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "One_Dimensional_Array", "One_Dimensional_Array\One_Dimensional_Array.vcxproj", "{03AD1BE6-3A6D-499E-B2F1-3C04386FE2C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array_ADT_Tests", "Array_ADT_Tests\Array_ADT_Tests.vcxproj", "{B8B0B7E8-E5D1-4B96-8A9D-CE6021812153}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,19 @@ Global
 		{03AD1BE6-3A6D-499E-B2F1-3C04386FE2C5}.Release|x64.Build.0 = Release|x64
 		{03AD1BE6-3A6D-499E-B2F1-3C04386FE2C5}.Release|x86.ActiveCfg = Release|Win32
 		{03AD1BE6-3A6D-499E-B2F1-3C04386FE2C5}.Release|x86.Build.0 = Release|Win32
+		{B8B0B7E8-E5D1-4B96-8A9D-CE6021812153}.Debug|x64.ActiveCfg = Debug|x64
+		{B8B0B7E8-E5D1-4B96-8A9D-CE6021812153}.Debug|x64.Build.0 = Debug|x64
+		{B8B0B7E8-E5D1-4B96-8A9D-CE6021812153}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8B0B7E8-E5D1-4B96-8A9D-CE6021812153}.Debug|x86.Build.0 = Debug|Win32
+		{B8B0B7E8-E5D1-4B96-8A9D-CE6021812153}.Release|x64.ActiveCfg = Release|x64
+		{B8B0B7E8-E5D1-4B96-8A9D-CE6021812153}.Release|x64.Build.0 = Release|x64
+		{B8B0B7E8-E5D1-4B96-8A9D-CE6021812153}.Release|x86.ActiveCfg = Release|Win32
+		{B8B0B7E8-E5D1-4B96-8A9D-CE6021812153}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E16E536A-8B92-4ED7-BB61-CB8E681B115A}
 	EndGlobalSection
 EndGlobal
