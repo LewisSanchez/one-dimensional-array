@@ -24,7 +24,6 @@ Exception::~Exception()
 		delete[] m_msg;
 }
 
-
 Exception & Exception::operator= (const Exception & rhs)
 {
 	if (this != &rhs)
